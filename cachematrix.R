@@ -3,7 +3,7 @@
 
 ## This function will create a special matrix object that can cache its inverse
 
-makeCacheMatrix <- function(x = matrix()) {
+makeCacheMatrix <- function(m = matrix()) {
         ##Initialize the inverse property
         i<-NULL
         
